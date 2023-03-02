@@ -1,0 +1,35 @@
+.container {
+  position: absolute;
+  left: 45%;
+  top: 45%;
+}
+.timer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+.field {
+  border: 1px solid black;
+  margin: 3px;
+  padding: 2px;
+  background-color: white;
+}
+body {
+  background-color: teal;
+}
+
+input {
+  height: 30px;
+}
+button {
+  height: 30px;
+  width: 80px;
+}
+p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+  height: 30px;
+  width: 80px;
+}
